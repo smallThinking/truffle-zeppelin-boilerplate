@@ -42,7 +42,7 @@ _Note: please run this in a separate console_
 ```
 // truffle develop server...
 npm run dev
-
+or
 // please modify truffle.js and .env files!
 ganache-cli
 ```
@@ -78,3 +78,7 @@ npm run migrate:rinkeby
 ```
 
 ### testing(only truffle)
+
+---
+
+Made with ❤️ to Ethereum by SmallThinking :kr::heart::jp:
