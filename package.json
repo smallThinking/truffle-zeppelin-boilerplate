@@ -7,7 +7,11 @@
         "test": "test"
     },
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "truffle.cmd develop",
+        "buiid:contract": "truffle.cmd build",
+        "migrate": "truffle.cmd migrate",
+        "migrate:ganache": "truffle.cmd migrate --network ganache",
+        "migtate:ropsten": "truffle.cmd mifrate --network ropsten"
     },
     "repository": {
         "type": "git",

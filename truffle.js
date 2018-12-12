@@ -10,23 +10,17 @@ module.exports = {
         // network_id: identifier for network based on ethereum blockchain. Find out more at https://github.com/ethereumbook/ethereumbook/issues/110
         // gas: gas limit
         // gasPrice: gas price in gwei
-
         development: {
             host: 'localhost',
             port: 8545,
-            network_id: '*' // Match any network id
+            network_id: '*'
         },
-        ganache_gui: {
+        // your ganache client
+        ganache: {
             host: 'localhost',
             port: '7545',
-            network_id: '5777'
+            network_id: '5777' // Match any network id
         },
-        // ganache: {
-        //     provider: () => new HDWalletProvider(process.env.MNEMONIC, "http://127.0.0.1:7545"),
-        //     network_id: 5777,
-        //     gas: 6700000,
-        //     //gasPrice: 21
-        // },
         ropsten: {
             provider: () => new HDWalletProvider(process.env.MNEMONIC, "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
             network_id: 3,
