@@ -12,7 +12,7 @@ module.exports = {
         // gasPrice: gas price in gwei
         development: {
             host: 'localhost',
-            port: 8545,
+            port: 9545,
             network_id: '*'
         },
         // your ganache client
@@ -21,6 +21,7 @@ module.exports = {
             port: '7545',
             network_id: '5777' // Match any network id
         },
+
         ropsten: {
             provider: () => new HDWalletProvider(process.env.MNEMONIC, "https://ropsten.infura.io/v3/" + process.env.INFURA_API_KEY),
             network_id: 3,
