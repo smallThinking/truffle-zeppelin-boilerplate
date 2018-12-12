@@ -1,0 +1,30 @@
+{
+    "name": "truffle-zeppelin-boilerplate",
+    "version": "1.0.0",
+    "description": "using truffle v3",
+    "main": "truffle-config.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/smallThinking/truffle-zeppelin-boilerplate.git"
+    },
+    "keywords": [
+        "truffle"
+    ],
+    "author": "smallThinking",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/smallThinking/truffle-zeppelin-boilerplate/issues"
+    },
+    "homepage": "https://github.com/smallThinking/truffle-zeppelin-boilerplate#readme",
+    "dependencies": {
+        "dotenv": "^6.2.0",
+        "openzeppelin-solidity": "2.0.0",
+        "truffle-hdwallet-provider": "0.0.6"
+    }
+}
