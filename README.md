@@ -81,4 +81,4 @@ npm run migrate:rinkeby
 
 ---
 
-Made with ❤️ to Ethereum by SmallThinking :kr::heart::jp:
+Made with ❤️ to Ethereum by SmallThinking
